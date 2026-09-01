@@ -1,36 +1,59 @@
-# Video Game Sales Analysis — Python
+# 🎮 Video Game Sales Analysis — Python
 
 > **Exploratory data analysis project** using Python to uncover patterns and trends in global video game sales.
 
-This project analyzes a dataset of video games with sales greater than **100,000 copies**. The dataset contains information such as game rankings, titles, platforms, release years, genres, publishers, and regional sales.
+This project analyzes a dataset of video games with sales greater than **100,000 copies**, covering game rankings, titles, platforms, release years, genres, publishers, and regional sales.
 
 ## 🎯 Project Objective
 
-Use data analysis and visualization to understand:
+The objective is to turn raw sales data into understandable insights by exploring:
 
-- Which platforms and genres perform strongly
-- How game sales vary across regions
-- How releases and sales change over time
-- Which publishers and titles stand out
-- Relationships and patterns within the available sales data
+- Platform and genre performance
+- Regional and global sales patterns
+- Release-year trends
+- Publisher performance
+- Relationships and distributions within the dataset
 
-## 🔄 Analysis Workflow
+## 🔄 End-to-End Workflow
 
-`Dataset → Data Cleaning → Exploration → Aggregation → Visualization → Insights`
+`Dataset → Data Understanding → Data Cleaning → EDA → Aggregation → Visualization → Insights`
+
+### 1. Data Understanding
+- Inspect dataset structure and variables
+- Review data types and summary statistics
+- Identify missing or inconsistent values
+
+### 2. Data Preparation
+- Clean and prepare data for analysis
+- Handle missing or inconsistent records where required
+- Prepare numerical and categorical fields
+
+### 3. Exploratory Data Analysis
+Analyze sales patterns across:
+- Platforms
+- Genres
+- Publishers
+- Release years
+- Regions
+- Global sales
+
+### 4. Visualization
+Use charts to compare categories, identify trends, and communicate patterns clearly.
 
 ## 🛠️ Tools & Technologies
 
 | Tool / Library | Purpose |
 |---|---|
-| **Python** | Analysis and workflow |
-| **NumPy** | Numerical operations |
+| **Python** | Analysis workflow |
 | **Pandas** | Data manipulation and analysis |
+| **NumPy** | Numerical operations |
 | **Matplotlib** | Data visualization |
 | **Seaborn** | Statistical and exploratory visualization |
+| **Jupyter Notebook** | Interactive analysis |
 
 ## 📊 Dataset
 
-The dataset contains video-game records with fields covering:
+Key fields include:
 
 - Rank
 - Game name
@@ -38,29 +61,24 @@ The dataset contains video-game records with fields covering:
 - Release year
 - Genre
 - Publisher
-- Regional sales
+- North American sales
+- European sales
+- Japanese sales
+- Other regional sales
 - Global sales
 
-The source dataset was generated from data scraped from **VGChartz** and focuses on games with sales above 100,000 copies.
+The project uses the VGChartz-derived dataset described in the original analysis. fileciteturn34file0L2-L2
 
-## 🔍 Analysis Areas
+## 📈 Analysis Areas
 
-The project explores the dataset through:
-
-- Data inspection and preparation
-- Descriptive analysis
-- Platform-level comparisons
-- Genre-level analysis
-- Publisher analysis
-- Regional sales analysis
-- Global sales trends
-- Visual exploration of relationships and distributions
-
-## 📈 Visual Analysis
-
-Python visualization libraries are used to turn the raw sales data into charts that make comparisons, distributions and trends easier to understand.
-
-The analysis emphasizes **exploration and interpretation**, not just plotting charts.
+| Area | What is explored |
+|---|---|
+| Platform | Sales and distribution across platforms |
+| Genre | Genre-level sales patterns |
+| Publisher | Publisher-level performance |
+| Region | Differences in regional sales |
+| Time | Release and sales trends over years |
+| Global Sales | Overall commercial performance |
 
 ## 🧠 Skills Demonstrated
 
@@ -68,22 +86,37 @@ The analysis emphasizes **exploration and interpretation**, not just plotting ch
 - Pandas data manipulation
 - NumPy numerical analysis
 - Exploratory Data Analysis (EDA)
-- Data aggregation
-- Trend analysis
-- Comparative analysis
+- Data cleaning
+- Grouping and aggregation
+- Trend and comparative analysis
 - Data visualization
-- Insight generation
+- Analytical storytelling
 
 ## 💡 Key Learning
 
 This project strengthened my ability to move from a raw dataset to meaningful analysis by combining **data preparation, exploratory analysis, visualization, and interpretation**.
 
-## 🚀 Why This Project Matters
+For a data analyst, the goal is not simply to create charts—it is to ask useful questions, choose appropriate analysis, identify patterns, and communicate what the data suggests.
 
-For a data analyst, the important skill is not simply creating charts—it is asking useful questions, selecting the right analysis, identifying patterns, and communicating what the data suggests.
+## 🚀 Future Improvements
 
-This project demonstrates that end-to-end analytical thinking using Python.
+- Add an interactive Power BI dashboard
+- Perform deeper regional comparisons
+- Analyze platform and genre trends over time
+- Add statistical testing where appropriate
+- Document business-oriented recommendations from the findings
+
+## 📁 Project Structure
+
+```text
+Data-Analytics-with-Python/
+│
+├── README.md
+└── analysis / notebooks / datasets
+```
+
+> Repository contents can evolve as additional analysis and documentation are added.
 
 ---
 
-⭐ Feel free to explore the project and the analysis.
+⭐ **Explore the repository to see the complete Python-based analytics workflow.**
